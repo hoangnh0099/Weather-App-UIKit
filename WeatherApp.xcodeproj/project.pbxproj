@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A0C374123E5C1C2005C9E86 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C374023E5C1C2005C9E86 /* WeatherView.swift */; };
+		8A0C374323E5C4BD005C9E86 /* WeatherPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C374223E5C4BD005C9E86 /* WeatherPresenter.swift */; };
+		8A0C374523E5C55F005C9E86 /* UIColor+theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A0C374423E5C55F005C9E86 /* UIColor+theme.swift */; };
 		8AF203E223E585DE00284014 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF203E123E585DE00284014 /* AppDelegate.swift */; };
 		8AF203E423E585DE00284014 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF203E323E585DE00284014 /* SceneDelegate.swift */; };
-		8AF203E623E585DE00284014 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF203E523E585DE00284014 /* ViewController.swift */; };
 		8AF203EB23E585E000284014 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8AF203EA23E585E000284014 /* Assets.xcassets */; };
 		8AF203EE23E585E000284014 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8AF203EC23E585E000284014 /* LaunchScreen.storyboard */; };
 		8AF203F823E5891D00284014 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AF203F723E5891D00284014 /* WeatherViewController.swift */; };
@@ -17,10 +19,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8A0C374023E5C1C2005C9E86 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		8A0C374223E5C4BD005C9E86 /* WeatherPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherPresenter.swift; sourceTree = "<group>"; };
+		8A0C374423E5C55F005C9E86 /* UIColor+theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+theme.swift"; sourceTree = "<group>"; };
 		8AF203DE23E585DE00284014 /* WeatherApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF203E123E585DE00284014 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8AF203E323E585DE00284014 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8AF203E523E585DE00284014 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8AF203EA23E585E000284014 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8AF203ED23E585E000284014 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8AF203EF23E585E000284014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -62,10 +66,12 @@
 				8AF203E323E585DE00284014 /* SceneDelegate.swift */,
 				8AF203F723E5891D00284014 /* WeatherViewController.swift */,
 				8AF203F923E58DBA00284014 /* UIView+constraints.swift */,
-				8AF203E523E585DE00284014 /* ViewController.swift */,
 				8AF203EA23E585E000284014 /* Assets.xcassets */,
 				8AF203EC23E585E000284014 /* LaunchScreen.storyboard */,
 				8AF203EF23E585E000284014 /* Info.plist */,
+				8A0C374023E5C1C2005C9E86 /* WeatherView.swift */,
+				8A0C374223E5C4BD005C9E86 /* WeatherPresenter.swift */,
+				8A0C374423E5C55F005C9E86 /* UIColor+theme.swift */,
 			);
 			path = WeatherApp;
 			sourceTree = "<group>";
@@ -140,7 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8AF203E623E585DE00284014 /* ViewController.swift in Sources */,
+				8A0C374123E5C1C2005C9E86 /* WeatherView.swift in Sources */,
+				8A0C374323E5C4BD005C9E86 /* WeatherPresenter.swift in Sources */,
+				8A0C374523E5C55F005C9E86 /* UIColor+theme.swift in Sources */,
 				8AF203FA23E58DBA00284014 /* UIView+constraints.swift in Sources */,
 				8AF203F823E5891D00284014 /* WeatherViewController.swift in Sources */,
 				8AF203E223E585DE00284014 /* AppDelegate.swift in Sources */,
